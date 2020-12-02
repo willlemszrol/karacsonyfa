@@ -1,0 +1,104 @@
+body{
+    background-color: blue;
+}
+h1{
+    background-color: none;
+    text-color:white;
+    text-emphasis-color: white;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+}
+.Treeholder{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image:url(https://cdn.discordapp.com/attachments/775994676876410921/783636169400647730/snow.gif)
+}
+#top{
+    top: 43px;
+    left: 100px;
+    border-bottom: 100px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+#mid{
+    left: 50px;
+    top: 100px;
+    border-bottom: 180px solid green;
+}
+#bot{
+    left: 25px;
+    top: 140px;
+    border-bottom: 150px solid green;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+}
+#log{
+    width: 30px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    left: 135px;
+    top: 290px;
+}
+.decoration{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+#first{
+    left: 80px;
+    top: 280px;
+}
+#second{
+    left: 120px;
+    top: 100px;
+}
+#third{
+    left: 160px;
+    top: 200px;
+}
+#fourht{
+    left: 140px;
+    top: 230px;
+}
+.star{
+    position: absolute;
+    border-bottom: 30px solid gold;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+#s1{
+    left: 140px;
+    top: 8px;
+}
+#s2{
+    transform: rotate(60deg);
+    left: 150px;
+    top: 15px;
+}
+#s3{
+    transform: rotate(60deg);
+    left: 130px;
+    top: 15px;
+}
+#s4{
+    transform: rotate(-140deg);
+    left: 130px;
+    top: 30px;
+}
+#s5{
+    transform: rotate(140deg);
+    left: 150px;
+    top: 30px;
+}
